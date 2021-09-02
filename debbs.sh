@@ -256,7 +256,6 @@ fi
 if [[ $rl == "en" ]]; then
 	real=$rl
 fi
-echo $real
 if [[ $fileName == *.js ]];then
 	comp=node 
 elif [[ $fileName == *.py ]];then 
