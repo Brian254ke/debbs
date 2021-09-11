@@ -1,25 +1,23 @@
 <h3>Debbs</h3>
 
-Life of a programmer revolves around creating files for writing code or testing code .
-This process involves creating file opening the file in a text editor then writing code .Once you are done
-closing the file then running the source code with compiler. Basically living on the terminal
+Life of a programmer revolves around coding. Writing,compiling and testing code then writing again.
 
-This process takes time and can be tiring or stressful, for example if you are working with languages like java , go , c# , c++ or c etc... , where you have to compile a source code then run its byte code or an executable hence repeating the same procedure again and again anytime you make an error or did not achieve desired results.
+This coding  process may take time and can be tiring and  stressful, for example if you are working with languages like java , go , c# , c++ or c etc... , where you have to compile a source code then run its byte code or an executable hence repeating the same procedure again and again anytime you make an error or did not achieve desired results.
 
-I wrote a bash a script to help me do all that.💪
+I wrote a bash a script to help me do all that
 
 ![Debbs image](./dbs/debbs.png)
 
-You start debbs as a command and pass in a few arguments and let it do the magic . Give a file you want to open or if it doesn't exist the name you want to refer to it , editor you want to use for the job (optional) , whether to save the file or not once you are done with it or not (optional) , run on real mode (optional).
+You run debbs and pass in a few arguments and let it do the magic . Give a file you want to open or if it doesn't exist the name you want to refer to it , editor you want to use for the job (optional) , whether to save the file or not once you are done with it or not (optional) , run on real mode (optional).
 
-<b><i>Now comes the fun part </i></b>, debbs starts a session by opens the editor and once you're done coding. The moment you exit the editor it runs the file with correct run type procedure for the language you are using. Helps in any case you forget any run type or compilation procedure or you want to avoid a lot of typing like me 😂 😂.
+<b><i>Now comes the fun part </i></b>, debbs starts a session ,opens  the editor and once you're done coding. The moment you exit the editor it runs the file with correct run type procedure for the language you are using. Helps in any case you forget its run type procedure or you want to avoid a lot of typing like me 😂 😂.
 
 <b><i> Awesome </i>.</b>
-It then outputs the code results after compilation and run time. Real mode option which enables you to see code output while writing code.<b> Think of it as a live server </b> 😂 😂
+It then outputs the code results after compilation and run time.It has a  Real mode option which enables you can see code output while writing code itself.<b> Think of it as a live server  </b> 😂 😂
 
 ![Debbs image](./dbs/action.png)
 
-<b><i>This whole process happens very fast </i></b> . 👍 Saves you a lot of time and reduces stress level trust me . 😂 😂
+<b><i>This whole process happens very fast </i></b> . 👍 Saves you a lot of time and will reduce your stress level trust me . 😂 😂
 
 <h3>Installation </h3>
 
@@ -57,7 +55,7 @@ If you are on the same directory you can use it as follows :
 
 <h3>Usage</h3>
 
-Using debbs is very easy. You need to memorize only a few things flags to pass in arguments.
+Using debbs is very easy. You need to memorize only a few  flags to pass in arguments.
 
 | flag | full name | usage                                                        |
 | ---- | --------- | ------------------------------------------------------------ |
@@ -69,9 +67,9 @@ Using debbs is very easy. You need to memorize only a few things flags to pass i
 | -o   | --output  | Redirect errors and output to a file.                        |
 | -r   | --real    | Include option to enable real mode                           |
 
-Nb: Nano is the default editor unless you specify.
+Nb: Nano is the default editor.
 
-All files are saved by default unless -s no option is passed in as an argument.
+All files are saved by default.
 
 <b>Usage examples</b>
 
