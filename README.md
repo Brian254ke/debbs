@@ -10,14 +10,14 @@ I wrote a bash a script to help me do all that
 
 You run debbs and pass in a few arguments and let it do the magic . Give a file you want to open or if it doesn't exist the name you want to refer to it , editor you want to use for the job (optional) , whether to save the file or not once you are done with it or not (optional) , run on real mode (optional).
 
-<b><i>Now comes the fun part </i></b>, debbs starts a session ,opens  the editor and once you're done coding. The moment you exit the editor it runs the file with correct run type procedure for the language you are using. Helps in any case you forget its run type procedure or you want to avoid a lot of typing like me 😂 😂.
+<b><i>Now comes the fun part </i></b>, debbs starts a session ,opens  the editor and once you're done coding. The moment you exit the editor it runs the file with correct run type procedure for the language you are using. Helps in any case you forget its run type procedure or you want to avoid a lot of typing .
 
 <b><i> Awesome </i>.</b>
-It then outputs the code results after compilation and run time.It has a  Real mode option which enables you can see code output while writing code itself.<b> Think of it as a live server  </b> 😂 😂
+It then outputs the code results after compilation and run time.It has a  Real mode option which enables you can see code output while writing code itself.<b> Think of it as a live server  </b> 😂
 
 ![Debbs image](./dbs/action.png)
 
-<b><i>This whole process happens very fast </i></b> . 👍 Saves you a lot of time and will reduce your stress level trust me . 😂 😂
+<b><i>This whole process takes a short time </i></b> .Saves you time
 
 <h3>Installation </h3>
 
@@ -141,13 +141,10 @@ Use posh git or git bash if you it have installed.
 
 <h3>Thank you !</h3>
 
-debbs will serve you well .😂😂
-
 Open for contributions and improvements.
 
-📞 Be in touch +254 721524154
 
-Come back for improvements and more ...
+Come back for improvements .
 
 Goodbye 👋
 
