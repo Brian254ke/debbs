@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!usr/bin/bash
 debbs(){
 	printf "\n\033[44m ======     =====     =====        Starting Debbs     =====     =====    =====\033[0m \n\n"  
 	printf  "\n\n\033[41m\t Code output : \033[0m\n\n\033[32m"
