@@ -8,16 +8,15 @@ I wrote a bash a script to help me do all that
 
 ![Debbs image](./dbs/debbs.png)
 
-You run debbs and pass in a few arguments and let it do the magic . Give a file you want to open or if it doesn't exist the name you want to refer to it , editor you want to use for the job (optional) , whether to save the file or not once you are done with it or not (optional) , run on real mode (optional).
-
-<b><i>Now comes the fun part </i></b>, debbs starts a session ,opens  the editor and once you're done coding. The moment you exit the editor it runs the file with correct run type procedure for the language you are using. Helps in any case you forget its run type procedure or you want to avoid a lot of typing .
+You run debbs and pass in a few command line arguments and let it do its the magic . Give a file you want to open or if it doesn't exist the name you want to refer to it , editor you want to use for the job (optional) , whether to save the file or not once you are done with it or not (optional) , run on real mode (optional).
+Debbs opens  the editor and once you're done coding. The moment you exit the editor it runs the file with correct run type procedure for the language you are using. Helps in any case you forget its run type procedure or you want to avoid a lot of typing .
 
 <b><i> Awesome </i>.</b>
-It then outputs the code results after compilation and run time.It has a  Real mode option which enables you can see code output while writing code itself.<b> Think of it as a live server  </b> 😂
+It then outputs the code results after compilation. It has a  Real mode option which enables you can see code output while writing code itself.<b> Think of it as a live server  </b> 😂
 
 ![Debbs image](./dbs/action.png)
 
-<b><i>This whole process takes a short time </i></b> .Saves you time
+This whole process saves you a lot of time.
 
 <h3>Installation </h3>
 
@@ -27,9 +26,9 @@ Clone debbs repo
 git clone https://github.com/Brian254ke/debbs.git
 ```
 
-Go to the directory where you've cloned debbs repository .
+Navigate to the directory where you've cloned debbs repository using the terminal.
 
-Give debbs script execute permission
+Give debbs execute permission.
 
 ```
 chmod +x debbs.sh
@@ -38,12 +37,12 @@ chmod +x debbs.sh
 Add a symlink so that you can use debbs anywhere on the path in the terminal.
 
 ```
-n=`pwd` | ln -sf   $n/debbs.sh     /usr/bin/debbs
+ln -sf  `pwd`/debbs.sh     /usr/bin/debbs
 ```
 
 If you don't want to add debbs to path . You will need to use absolute path whenever you want to use it .
 
-ie ${PATH TO DEBBS} now do something with debbs.
+ie ${PATH TO DEBBS} now do something with debbs. Or you need to give it an alias. 
 
      /home/pathtodebbs  --help
 
@@ -143,9 +142,7 @@ Use posh git or git bash if you it have installed.
 
 Open for contributions and improvements.
 
-
-Come back for improvements .
-
 Goodbye 👋
+
 
 
